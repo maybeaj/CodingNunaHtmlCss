@@ -3,3 +3,29 @@
     padding-right:0px;
 }
 
+.c-footercopyright {
+    padding: 0 0.875rem 1.125rem;
+    font-size: .8125rem;
+    line-height: 1.875rem;
+    color: #bfbfbf;
+    margin-top: -0.3125rem;
+}
+
+@media (min-width: 48em){
+.c-footercopyright {
+    padding: 0 1.5rem 1rem;
+    margin-top: -0.625rem;
+}
+}
+
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+::-webkit-scrollbar-thumb {
+    background: #009539;
+}
+
+li a {
+    color:black;
+    text-decoration: none;
+}
